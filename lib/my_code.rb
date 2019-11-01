@@ -1,4 +1,6 @@
 # Your Code Here
+require 'pry'
+
 def map(source_array)
   i = 0
   new_array = []
@@ -20,6 +22,7 @@ end
 i = 0
   while i < source_array.length do
     reduce_tot = yield(reduce_tot, source_array[i])
+    binding.pry
     i += 1
   end
 reduce_tot
