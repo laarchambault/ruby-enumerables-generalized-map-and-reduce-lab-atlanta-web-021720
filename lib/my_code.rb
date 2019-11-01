@@ -17,6 +17,7 @@ end
      reduce_tot = starting_value
    else
      reduce_tot = starting_value && source_array[0]
+   end
  
 i = 0
   while i < source_array.length do
