@@ -50,4 +50,4 @@ describe 'my own reduce' do
 #     source_array = [ false, nil, nil, nil]
 #     expect(reduce(source_array){|memo, n| memo && n}).to eq(false)
 #   end
-# end
+end
