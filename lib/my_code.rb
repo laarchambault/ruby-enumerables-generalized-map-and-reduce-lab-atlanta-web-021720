@@ -22,5 +22,5 @@ i = 0
     reduce_tot = yield(reduce_tot, source_array[i])
     i += 1
   end
-starting_value
+reduce_tot
 end
