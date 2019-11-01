@@ -13,7 +13,7 @@ end
 
 
  def reduce(source_array, starting_value = 0)
-   if source_array[0] == false 
+   if source_array[0].class == trueClass || falseClass
      starting_value = nil
    end
 
