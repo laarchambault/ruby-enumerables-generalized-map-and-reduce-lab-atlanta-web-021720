@@ -12,15 +12,14 @@ def map(source_array)
 end
 
 
- def reduce(source_array, starting_value = 0)
-   if source_array[0] == false 
+def reduce(source_array, starting_value = 0)
+  if source_array[0] == false 
      starting_value = false 
-   end
+  end
 
-i = 0
+  i = 0
   while i < source_array.length do
     starting_value = yield(starting_value, source_array[i])
-   # binding.pry
     i += 1
   end
 starting_value
