@@ -16,7 +16,7 @@ end
    if starting_value
      reduce_tot = starting_value
    else
-     reduce_tot = starting_value && source_array[0]
+     reduce_tot = source_array[0] && starting_value
    end
  
 i = 0
