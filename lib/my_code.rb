@@ -21,7 +21,7 @@ end
 i = 0
   while i < source_array.length do
     reduce_tot = yield(reduce_tot, source_array[i])
-    binding.pry
+   # binding.pry
     i += 1
   end
 reduce_tot
